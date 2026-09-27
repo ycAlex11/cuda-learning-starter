@@ -1,6 +1,34 @@
+# Python virtual environment
 .venv/
-build/
-cuda_extensions/*/build/
-*.pyd
+
+# Python cache and packaging
 __pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+
+# Build directories
+build/
+
+# Compiled native files
+*.pyd
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+
+# Local editor settings
+.vscode/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local compilation log
 work-nvcc.log
+
+# Gloo temporary communication file
+/experiments/distributed/gloo_rendezvous
