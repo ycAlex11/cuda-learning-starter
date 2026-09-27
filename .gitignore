@@ -1,0 +1,6 @@
+.venv/
+build/
+cuda_extensions/*/build/
+*.pyd
+__pycache__/
+work-nvcc.log
